@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduiboProjet", "ArduiboProjet\ArduiboProjet.csproj", "{6F7A6886-777A-4D25-B3DB-80F3311B1972}"
 EndProject
 Global
