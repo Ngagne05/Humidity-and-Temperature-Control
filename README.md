@@ -37,11 +37,13 @@ III.  Software
 We need for this project
 
 •	Arduino
+
      	     detect the humidity and the temperature of the room
 	     an alarm is triggered
 	     
 •	C#/ ASP.NET for the web application
-	     C#/ ASP.NET for the web application,
+
+	     	C#/ ASP.NET for the web application,
      		Create the web App.
      		A message is sent to the room manager
      		possibility to follow the evolution of the temperature and humidity through a web application
@@ -74,20 +76,29 @@ We need for this project
 
 
 •	IoT ThingSpeak.
-     	Permit to send the data(temperature and humidity’s values ) to the phone 
-     	Phone rings
-     	Draw the graph of the Humidity and the temperature over the time
+	
+     		Permit to send the data(temperature and humidity’s values ) to the phone 
+     		Phone rings
+     		Draw the graph of the Humidity and the temperature over the time
 	
 IV. Functionalities
 
 This application consist on web application and mobile application, to show the evolution of the temperature and the humidity (through the graphs), and trigger an alarm when they have reached a specified threshold.
 When the temperature and humidity have reached a specified threshold then:
-	An alarm is trigged. 
+	
+An alarm is trigged. 
+
 There are different kind of sound: Sound for temperature and sound for humidity.
+
 	A mail is sending to the room’s manager to show him the temperature and the humidity values
+
 	And his phone is ringing to warn him of the temperature or the humidity level. 
+
 The room’s manager can set up the minimum and maximum values of temperature and humidity. 
-In case the alarm is trigged, he can stop it for a moment.
+
+In case the alarm is trigged, he can stop it fix the problem by increasing or decreasing the temperature or the humidity.
+If he stop the Alarm and doesn’t fix the problem, the alarm will be trigged again after 30min.
+
 
 
 
