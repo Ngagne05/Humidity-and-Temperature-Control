@@ -34,18 +34,23 @@ II.	Hardware
 
 III.  Software
 
-We need for this project:
-•	Arduino,
-     	detect the humidity and the temperature of the room
+We need for this project
+
+•	Arduino
+     	     detect the humidity and the temperature of the room
 	     an alarm is triggered
-•	C#/ ASP.NET for the web application,
+	     
+•	C#/ ASP.NET for the web application
 	     C#/ ASP.NET for the web application,
-     	Create the web App.
-     	A message is sent to the room manager
-     	possibility to follow the evolution of the temperature and humidity through a web application
-     	settings
+     		Create the web App.
+     		A message is sent to the room manager
+     		possibility to follow the evolution of the temperature and humidity through a web application
+     		settings
+		
 •	Mysql Server as database. 
-     DataBase name: arduinoproject
+
+    		 DataBase name: arduinoproject
+     
           Table Param
                ID	               Identification
                tmax	               The maximal temperature value
@@ -72,6 +77,7 @@ We need for this project:
      	Permit to send the data(temperature and humidity’s values ) to the phone 
      	Phone rings
      	Draw the graph of the Humidity and the temperature over the time
+	
 IV. Functionalities
 
 This application consist on web application and mobile application, to show the evolution of the temperature and the humidity (through the graphs), and trigger an alarm when they have reached a specified threshold.
