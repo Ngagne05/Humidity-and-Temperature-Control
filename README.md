@@ -32,6 +32,59 @@ II.	Hardware
                               GND 
                                9v
 
+III.  Software
+
+We need for this project:
+•	Arduino,
+     	detect the humidity and the temperature of the room
+	     an alarm is triggered
+•	C#/ ASP.NET for the web application,
+	     C#/ ASP.NET for the web application,
+     	Create the web App.
+     	A message is sent to the room manager
+     	possibility to follow the evolution of the temperature and humidity through a web application
+     	settings
+•	Mysql Server as database. 
+     DataBase name: arduinoproject
+          Table Param
+               ID	               Identification
+               tmax	               The maximal temperature value
+               tmin 	          The minimal temperature value
+               hmax	               The maximal humidity value
+               hmin	               The minimum humidity value
+               StopAlarm	          Turn to 1 if the alarm is switched off and 0 if not
+               Alarm duration	     Contain the duration on which alarm will be switched off.
+               Mail	               Contain the mail of the room’s manager
+
+          Table temphumd
+               ID	               Identification
+               temp	               temperature value
+               humd	               humidity value
+               Date	               Date of date saving
+
+          Table user
+               ID	               Identification
+               Name	               Name of the user
+               password	          User password
+
+
+•	IoT ThingSpeak.
+     	Permit to send the data(temperature and humidity’s values ) to the phone 
+     	Phone rings
+     	Draw the graph of the Humidity and the temperature over the time
+IV. Functionalities
+
+This application consist on web application and mobile application, to show the evolution of the temperature and the humidity (through the graphs), and trigger an alarm when they have reached a specified threshold.
+When the temperature and humidity have reached a specified threshold then:
+	An alarm is trigged. 
+There are different kind of sound: Sound for temperature and sound for humidity.
+	A mail is sending to the room’s manager to show him the temperature and the humidity values
+	And his phone is ringing to warn him of the temperature or the humidity level. 
+The room’s manager can set up the minimum and maximum values of temperature and humidity. 
+In case the alarm is trigged, he can stop it for a moment.
+
+
+
 
 
 
