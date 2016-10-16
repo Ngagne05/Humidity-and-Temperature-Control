@@ -85,6 +85,7 @@ IV. Functionalities
 
 This application consist on web application and mobile application, to show the evolution of the temperature and the humidity (through the graphs), and trigger an alarm when they have reached a specified threshold.
 When the temperature and humidity have reached a specified threshold then:
+
 	
 An alarm is trigged. 
 
